@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.formulario__contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formulario__contenedor input, .formulario__contenedor button {
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.materias {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.select__option:focus, .select__option:hover {
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */

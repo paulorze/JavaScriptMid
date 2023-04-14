@@ -1,0 +1,24 @@
+.formulario__contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input, button {
+        width: 20rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+.materias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.select__option:focus, .select__option:hover {
+    border: 2px solid black;
+}
